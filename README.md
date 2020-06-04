@@ -1,5 +1,6 @@
 # Exercicio-3-Aula-2
 
+![Screenshot](brunaDiagrama_ex3.png)
 
 Softwares necessários:
 ----------------------
@@ -17,9 +18,12 @@ Como executar os testes:
 2 - Abrir o SenseHAT
 >> Menu de aplicações - Desenvolvimento - SenseHAT Emulator
 
-3 - Abrir um Terminal para executar comandos
+3 - Abrir um Terminal
 
-4 - Rodar o Servidor Coap
+4 - Fazer clone dos programas contidos neste endereço github 
+>> 
+
+5 - Rodar o Servidor Coap
 >> python server_2.py 127.0.0.1 5683
 
 Aparecerá escrito "Add New Sensor", Digite o ID do sensor, por exmeplo s2; O ID do sensor s1 já foi criado por padrão 
