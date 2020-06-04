@@ -25,9 +25,21 @@ Como executar os testes:
 
     git clone https://github.com/BrunaToledoGuedes/Ex3-Aula2.git
 
-5 - Executar a Shell para testar a aplicação
+5 - trocar o diretório
+
+    cd Ex3-Aula2
+
+6 - Dar permissão de execução
+
+    chmod +x brunaShell_ex3.sh
+
+7 - Executar a Shell para testar a aplicação
 
     ./brunaShell_ex3.sh
+
+8 - Acessar a tela do SenseHAT simulator e modificar os valores de temperatura e pressão para valores acima de 40 e 600, respectivamente.
+
+Notas:
 
 O arquivo shell irá executar, de forma automática:
   1) iniciar o servidor Coap (python brunaServer_ex3.py), 
