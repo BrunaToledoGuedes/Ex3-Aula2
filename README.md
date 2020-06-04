@@ -8,7 +8,7 @@ Softwares necessários:
 1 - Python 2.7.16
 2 - O Coap Server utilizado foi o CoAPthon versão 4.0.2
 
->> sudo pip install CoAPthon
+    sudo pip install CoAPthon
 
 Como executar os testes:
 ----------------------
@@ -16,17 +16,17 @@ Como executar os testes:
 1 - Abrir a máquina virtual RaspBerry
 
 2 - Abrir o SenseHAT
->> Menu de aplicações - Desenvolvimento - SenseHAT Emulator
+    Menu de aplicações - Desenvolvimento - SenseHAT Emulator
 
 3 - Abrir um Terminal
 
 4 - Fazer clone dos programas contidos neste endereço github 
->> git clone https://github.com/BrunaToledoGuedes/Ex3-Aula2.git
+    git clone https://github.com/BrunaToledoGuedes/Ex3-Aula2.git
 
 5 - Executar a Shell para testar a aplicação
->> ./brunaShell_ex3.sh
+    ./brunaShell_ex3.sh
 
-O arquivo shell irá:
+O arquivo shell irá executar, de forma automática:
   1) iniciar o servidor Coap (python brunaServer_ex3.py), 
   2) iniciar o programa atualizador da temperatura e pressão (python brunaUpdateServer_ex3.py)
   3) executar um exemplo de um cliente (python brunaClient_ex3 -t 40 -p 600)
