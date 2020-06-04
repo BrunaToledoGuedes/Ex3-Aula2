@@ -15,7 +15,7 @@ sense.clear()
 
 client = None
 
-def main():  # pragma: no cover
+def main(): 
     global client
 
     client = HelperClient(server=('127.0.0.1', 5683))
@@ -34,5 +34,5 @@ def main():  # pragma: no cover
          server.close()
          print "Exiting..."
 
-if __name__ == '__main__':  # pragma: no cover
+if __name__ == '__main__': 
     main()
