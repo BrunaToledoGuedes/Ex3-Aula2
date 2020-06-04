@@ -21,7 +21,7 @@ Como executar os testes:
 3 - Abrir um Terminal
 
 4 - Fazer clone dos programas contidos neste endereço github 
->> 
+>> https://github.com/BrunaToledoGuedes/Teste-Ex3.git
 
 5 - Rodar o Servidor Coap
 >> python server_2.py 127.0.0.1 5683
