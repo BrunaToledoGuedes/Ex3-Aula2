@@ -65,7 +65,7 @@ class CoAPServer(CoAP):
          self.add_resource('pressure/', PressureSensor())
          print self.root.dump()
 
-# Iniciando Serviço
+# Iniciando Servico
 def main():
      server = CoAPServer("127.0.0.1", 5683)
      try:
