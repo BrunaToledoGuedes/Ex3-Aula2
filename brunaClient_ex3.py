@@ -10,7 +10,7 @@ r = 255
 g = 0
 b = 0
 
-# Prepare for cmd line arguments
+# recebendo os argumentos de temperatura e pressao da linha de comando 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument("-t", "--temp", help="Valor limite para temperatura", default=40)
 parser.add_argument("-p", "--pres", help="Valor limite para Pressao", default=600)
