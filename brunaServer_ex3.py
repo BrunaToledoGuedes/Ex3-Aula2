@@ -33,7 +33,7 @@ class TempSensor(Resource):
      def render_DELETE(self, request):
          return True
 
-# Armazena o valor do sensor de pressão
+# Armazena o valor do sensor de pressao
 class PressureSensor(Resource):
      def __init__(self, name="PressureSensor", coap_server=None):
          super(PressureSensor, self).__init__(name, coap_server, visible=True,
