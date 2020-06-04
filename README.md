@@ -16,14 +16,17 @@ Como executar os testes:
 1 - Abrir a máquina virtual RaspBerry
 
 2 - Abrir o SenseHAT
+
     Menu de aplicações - Desenvolvimento - SenseHAT Emulator
 
 3 - Abrir um Terminal
 
 4 - Fazer clone dos programas contidos neste endereço github 
+
     git clone https://github.com/BrunaToledoGuedes/Ex3-Aula2.git
 
 5 - Executar a Shell para testar a aplicação
+
     ./brunaShell_ex3.sh
 
 O arquivo shell irá executar, de forma automática:
